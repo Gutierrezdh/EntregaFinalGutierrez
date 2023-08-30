@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Guitarra Ibanez GIO",
+        "id": "GA7",
+        "category": "instrumentos",
+        "price": "95000 ARS",
+        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/152/693/products/base-productos_0001_ibanez-grg1401-95971bdb29a4a4ed3c16521931464955-640-0.jpg"
+    },
+    {
+        "name": "Guitarra Fender Stratocaster",
+        "id": "FH23",
+        "category": "instrumentos",
+        "price": "78000 ARS",
+        "description": "Esta guitarra icónica proporciona tonos ricos y versátiles. Ideal para músicos de todos los niveles.",
+        "img": "https://101db.com.ar/11693-Productos/guitarra-electrica-fender-player-stratocaster-pau-ferro-3-color-sunburst.jpg"
+    },
+    {
+        "name": "Guitarra Electrica Gibson Les Paul",
+        "id": "GLP9",
+        "category": "instrumentos",
+        "price": "145000 ARS",
+        "description": "La Gibson Les Paul es un ícono en el mundo de las guitarras eléctricas. Con su cuerpo de caoba y pastillas humbucker, ofrece un tono cálido y potente.",
+        "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/087/816/products/preview_11-37643d515a57bfe61115762479498024-640-0.jpg"
+    },
+    {
+        "name": "Amplificador para guitarra VOX",
+        "id": "VOX",
+        "category": "amplificadores",
+        "price": "115000 ARS",
+        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFamQZbsnNUy48-eD8tiFwxnrHKm3zTHO55joaGmxuH222M5QTw1RQ0mWRjJlBXFJbtY4&usqp=CAU"
+    },
+    {
+        "name": "Amplificador para guitarra Marshall DSL40C",
+        "id": "MARSHALL",
+        "category": "amplificadores",
+        "price": "135000 ARS",
+        "description": "El amplificador Marshall DSL40C es conocido por su versatilidad y tono clásico. Ofrece canales limpios y de distorsión, perfectos para una amplia gama de géneros musicales.",
+        "img": "https://www.heavenimagenes.com/heavencommerce/75976ec3-b689-433d-b997-24f719210e29/images/v2/MARSHALL/1510200928497100_01_medium.jpg"
+    },
+    {
+        "name": "Amplificador para guitarra Fender Blues Junior",
+        "id": "FBJR",
+        "category": "amplificadores",
+        "price": "98000 ARS",
+        "description": "El Fender Blues Junior es un amplificador valvular muy apreciado por su tono cálido y natural. Es perfecto para tocar blues y rock, ofreciendo una saturación suave a volúmenes moderados.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpvJZR1CMx1axhn_txkdzhlQm06J8v0whxepcGnH5Hji2IGnqHDjw1BeYasgDCAeEiwQ&usqp=CAU"
+    },
+    {
+        "name": "Afinador para guitarra",
+        "id": "AF200",
+        "category": "accesorios",
+        "price": "12000 ARS",
+        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/152/693/products/pt-011-341f259bd55a6e650916784784384175-640-0.webp"
+    }
+]

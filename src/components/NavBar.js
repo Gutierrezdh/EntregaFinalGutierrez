@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,13 +11,11 @@ const NavBar = () => {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home"></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">MelodyMarket</Navbar.Brand>
           <Nav className="me-auto">
-            
-            <Nav.Link href="#instrumentos">Instrumentos</Nav.Link>
-            <Nav.Link href="#amplificadores">Amplificadores</Nav.Link>
-            <Nav.Link href="#accesorios">Accesorios</Nav.Link>
-
+            <Nav.Link as={Link} to="/category/instrumentos">Instrumentos</Nav.Link>
+            <Nav.Link as={Link} to="/category/amplificadores">Amplificadores</Nav.Link>
+            <Nav.Link as={Link} to="/category/accesorios">Accesorios</Nav.Link>
           </Nav>
           <CartWidget/>
         </Container>
@@ -25,37 +25,3 @@ const NavBar = () => {
 }
 
 export default NavBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-import React from "react";
-import CartWidget from "./CartWidget";
-
-const NavBar = () => {
-    return ( 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light"> 
-    <CartWidget/>
-    </nav>
-)};
-
- */
-
-
-
-
-
-
-
-
-
