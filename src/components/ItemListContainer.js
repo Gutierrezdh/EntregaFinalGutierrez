@@ -51,6 +51,7 @@ const ItemListContainer = ({ greeting, products }) => {
             <Link to={`/item/${product.id}`}>
               <img width={350} src={product.img} alt={product.name} />
             </Link>
+            <p>Precio: {product.price}</p> {/* Agregar el precio aquí */}
           </li>
         ))}
       </ul>

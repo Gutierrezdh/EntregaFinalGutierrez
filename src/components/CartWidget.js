@@ -1,38 +1,31 @@
 import React from 'react';
 import carrito from './carrito.png'; 
-
-
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { CartContext } from "../contexts/CartContext";
 
 const CartWidget = () => {
-return (
-    <div className="cart-widget" style={contenedorEstilo}>     
-        <img src={carrito} alt="Carrito" style={imagenEstilo} />      
-        <span className="notification" style={notificacionEstilo}>0</span>
-    </div>
-);
-};
+    const { totalWidget } = useContext(CartContext);
 
+    // Estilos para el botón
+    const buttonStyle = {
+        display: "flex",
+        alignItems: "center",
+        textDecoration: "none",
+        fontSize: "14px", // Tamaño de fuente para el número
+    };
 
-const contenedorEstilo = {
-    display: 'flex',
-    alignItems: 'center',
-    marginLeft: '85%',   
-};
+    const imgStyle = {
+        width: "100px", // Tamaño de la imagen
+        marginRight: "2px", // Espacio entre la imagen y el número
+    };
 
-const imagenEstilo = {
-    width: '80px',
-    height: '50%',
-    marginRight: '5px',
-    opacity: '1',
-
-};
-
-const notificacionEstilo = {
-    backgroundColor: 'red',
-    color: 'white',
-    padding: '2px 6px',
-    borderRadius: '50%',
-    fontSize: '14px',
+    return (
+        <Link to="/cart" style={buttonStyle}>
+            <img src={carrito} alt="Cart" style={imgStyle} />
+            <span>{totalWidget}</span>
+        </Link>
+    );
 };
 
 export default CartWidget;
