@@ -10,11 +10,8 @@ const [product, setProduct] = useState(null);
 const { id } = useParams();
 const { addItem } = useContext(CartContext)
 const onAdd = (count) => {
-  console.log("Llamada a onAdd con count:", count);
   addItem(product, count);
 };
-
-console.log("Valor de product:", product);
 
   useEffect(() => {
     setProduct(products.find(product => product.id === id));
@@ -41,15 +38,10 @@ console.log("Valor de product:", product);
       <Link to={`/item/${product.id}`}>
         <img style={imagenEstilo} width={350} src={product.img} alt={product.name} />
       </Link>
-      console.log("Valor de product:", product);
       <p>Stock: {product.stock}</p>
-      <p>Precio: {product.price}</p>
-      
-      
-      <ItemCount stock={product.stock} onAdd={onAdd} />
-      
-      <p>{product.description}</p>
-      
+      <p>Precio: {product.price}</p>      
+      <ItemCount stock={product.stock} onAdd={onAdd} />      
+      <p>{product.description}</p>      
     </main>
   );
 };

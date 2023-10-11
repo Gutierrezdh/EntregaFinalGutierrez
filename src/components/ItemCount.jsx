@@ -16,10 +16,6 @@ const ItemCount = ({ onAdd, stock }) => {
     }
   };
 
-  // Agrega estos console.log para depurar
-  console.log("count:", count);
-  console.log("stock:", stock); 
-
   return (
     <div className="itemCount">
       <button className="countButton" onClick={handleDecreaseCount}>

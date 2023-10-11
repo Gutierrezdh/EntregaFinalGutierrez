@@ -33,7 +33,7 @@ const App = () => {
         setFirebaseProducts(productsData);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching data from Firebase:", error);
+        console.error("Error obteniendo datos de FireBase", error);
       }
     };
 
@@ -45,9 +45,7 @@ const App = () => {
     <BrowserRouter>
       <div>
         <h1 style={estiloCentrado}>Bienvenido a MelodyMarket</h1>
-
         <NavBar />
-
         <Routes>
           <Route
             path="/"

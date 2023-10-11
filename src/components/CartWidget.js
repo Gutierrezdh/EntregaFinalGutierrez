@@ -12,12 +12,12 @@ const CartWidget = () => {
         display: "flex",
         alignItems: "center",
         textDecoration: "none",
-        fontSize: "14px", // Tamaño de fuente para el número
+        fontSize: "14px", 
     };
 
     const imgStyle = {
-        width: "100px", // Tamaño de la imagen
-        marginRight: "2px", // Espacio entre la imagen y el número
+        width: "100px", 
+        marginRight: "2px", 
     };
 
     return (
