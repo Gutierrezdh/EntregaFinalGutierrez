@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# MelodyMarket - Tu Tienda de Instrumentos Musicales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a MelodyMarket, tu tienda en línea para adquirir los mejores instrumentos musicales, amplificadores y accesorios! Explora nuestra amplia selección y encuentra exactamente lo que necesitas para tu música.
 
-## Available Scripts
+## Componentes Principales
 
-In the project directory, you can run:
+### App
 
-### `npm start`
+El componente principal que configura la estructura de la aplicación. Maneja las rutas y contiene la barra de navegación y las diferentes secciones de la tienda.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### NavBar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La barra de navegación que te permite moverte fácilmente entre las diferentes categorías de productos.
 
-### `npm test`
+### ItemListContainer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Muestra una lista de productos en función de la categoría seleccionada o todos los productos si no se ha seleccionado una categoría específica. Permite explorar los productos y acceder a sus detalles.
 
-### `npm run build`
+### ItemDetailContainer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Muestra los detalles de un producto específico, incluyendo su nombre, imagen, precio, stock y descripción. Permite agregar el producto al carrito.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ItemCount
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Un componente que permite al usuario seleccionar la cantidad de un producto que desea agregar al carrito.
 
-### `npm run eject`
+### CartWidget
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Un pequeño widget en la barra de navegación que muestra la cantidad de productos en el carrito. Permite acceder al carrito para revisar los productos y finalizar la compra.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Cart
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Representa el carrito de compras. Muestra los productos agregados al carrito, permite eliminar productos, vaciar el carrito y realizar una compra ingresando los datos del usuario.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Principales tecnologías utilizadas
 
-## Learn More
+- React.js: Librería de JavaScript para construir interfaces de usuario interactivas.
+- React Router: Para la navegación en la aplicación.
+- Firebase: Para la base de datos y autenticación.
+- Bootstrap: Para estilos y diseño.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
